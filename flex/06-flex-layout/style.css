@@ -16,7 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 12px;
+  padding: 8px 12px;
 }
 
 input {
@@ -32,7 +32,7 @@ input {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 700px;
+  margin: 10%;
 }
 
 .header {
@@ -45,12 +45,14 @@ input {
 .left-links {
   display: flex;
   gap: 20px;
+  list-style-type: none;
 }
 
 .right-links {
   display: flex;
   gap: 20px;
   margin-right: 16px;
+  list-style-type: none;
 }
 
 .footer {
@@ -67,10 +69,16 @@ input {
 .left-links1 {
   display: flex;
   gap: 20px;
+  list-style-type: none;
 }
 
 .right-links1 {
   display: flex;
   gap: 20px;
   margin-right: 16px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
